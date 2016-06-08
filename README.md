@@ -1,7 +1,7 @@
 # Tags
-- 0.23.2, 0.23, latest ([Dockerfile](https://github.com/dgrauet/sensu/blob/master/Dockerfile))
-- 0.23.2-server, 0.23-server, server ([server/Dockerfile](https://github.com/dgrauet/sensu/blob/master/server/Dockerfile))
-- 0.23.2-api, 0.23-api, api ([server/Dockerfile](https://github.com/dgrauet/sensu/blob/master/api/Dockerfile))
+- 0.24.0, 0.24, latest ([Dockerfile](https://github.com/dgrauet/sensu/blob/master/Dockerfile))
+- 0.24.0-server, 0.24-server, server ([server/Dockerfile](https://github.com/dgrauet/sensu/blob/master/server/Dockerfile))
+- 0.24.0-api, 0.24-api, api ([server/Dockerfile](https://github.com/dgrauet/sensu/blob/master/api/Dockerfile))
 
 # What is Sensu ?
 
@@ -11,6 +11,6 @@ Monitor servers, services, application health, and business KPIs. Get notified a
 
 # How to use this image
 
-$ docker run -d  -v <host_sensu_dir>:/etc/sensu:ro --name sensu-server dgrauet/sensu:server
+$ docker run -d  -v &lt;host&#95;sensu&#95;dir&gt;:/etc/sensu:ro --name sensu-server dgrauet/sensu:server
 
-$ docker run -d  -v <host_sensu_dir>:/etc/sensu:ro --name sensu-api dgrauet/sensu:api
+$ docker run -d  -v &lt;host&#95;sensu&#95;dir&gt;:/etc/sensu:ro --name sensu-api dgrauet/sensu:api
