@@ -1,4 +1,4 @@
-FROM dgrauet/sensu:0.26.0
+FROM dgrauet/sensu:0.26.1
 
 EXPOSE 4567
 
