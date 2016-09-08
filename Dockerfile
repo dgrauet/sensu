@@ -14,4 +14,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     sensu=$SENSU_VERSION \
     && rm -rf /var/lib/apt/lists/*
 
+RUN /opt/sensu/embedded/bin/gem install \
+     --minimal-deps --no-ri --no-rdoc sensu-cli
+
 RUN chown -R sensu:sensu /etc/sensu
