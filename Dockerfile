@@ -8,7 +8,7 @@ RUN wget -q http://sensu.global.ssl.fastly.net/apt/pubkey.gpg && apt-key add pub
 
 RUN echo "deb     http://sensu.global.ssl.fastly.net/apt sensu main" > /etc/apt/sources.list.d/sensu.list
 
-ENV SENSU_VERSION 0.26.5-2
+ENV SENSU_VERSION 0.29.0-11
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     sensu=$SENSU_VERSION \
