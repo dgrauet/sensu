@@ -1,7 +1,7 @@
 # Tags
 - 1.2.1, 1.2, latest ([Dockerfile](https://github.com/dgrauet/sensu/blob/master/Dockerfile))
-- 1.1.2-server, 1.1-server, server ([server/Dockerfile](https://github.com/dgrauet/sensu/blob/master/server/Dockerfile))
-- 1.1.2-api, 1.1-api, api ([api/Dockerfile](https://github.com/dgrauet/sensu/blob/master/api/Dockerfile))
+- 1.2.1-server, 1.2-server, server ([server/Dockerfile](https://github.com/dgrauet/sensu/blob/master/server/Dockerfile))
+- 1.2.1-api, 1.2-api, api ([api/Dockerfile](https://github.com/dgrauet/sensu/blob/master/api/Dockerfile))
 
 # What is Sensu ?
 
