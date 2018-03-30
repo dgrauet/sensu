@@ -12,3 +12,7 @@ Monitor servers, services, application health, and business KPIs. Get notified a
 $ docker run -d  -v &lt;host&#95;sensu&#95;dir&gt;:/etc/sensu:ro --name sensu-server dgrauet/sensu:server
 
 $ docker run -d  -v &lt;host&#95;sensu&#95;dir&gt;:/etc/sensu:ro --name sensu-api dgrauet/sensu:api
+
+
+
+[Sensu Changelog](https://github.com/sensu/sensu/blob/master/CHANGELOG.md)
